@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+seaborn = "*"
+jupyter = "*"
+torch = "*"
+transformers = "*"
+gensim = "*"
+arrow = "*"
+umap-learn = "*"
+accelerate = "*"
+tabulate = "*"
+flask = "*"
+flasgger = "*"
+flask-swagger-ui = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.11"

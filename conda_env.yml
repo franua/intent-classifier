@@ -1,0 +1,27 @@
+name: intent-classifier
+channels:
+  - defaults
+  - pytorch
+  - free
+  - conda-forge
+  - conda-forge/label/gcc7
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - python
+  - jupyter
+  - pytorch
+  - transformers
+  - gensim
+  - arrow
+  - umap-learn
+  - accelerate
+  - flask
+  - flask
+  - flasgger
+  - flask-swagger-ui
+  - tabulate
+  - pytest
