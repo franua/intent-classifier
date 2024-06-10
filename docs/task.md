@@ -1,9 +1,5 @@
-# Ultimate - Applied AI Engineer
-We're excited that you want to join the Ultimate team.  If you have any questions regarding this task, please don't hesitate to ask.
-
 ## Brief
 Your task is to implement a zero- or few-shot intent classifier that can be used to provide inferencing service via an HTTP Service. During the classifier development, you should take into consideration the following points: new set of intents, cost, token size, latency, and parsable output.
-
 
 The boiler plate for the Service is implemented in file `server.py` and you'll have to implement the API function for inferencing as per the API documentation provided below. The classifier interface has been defined in `intent_classifer.py`. You can modify/refactor it according to your needs.
 
@@ -16,19 +12,10 @@ Please also provide a Jupyter notebook(s) in which you delve into your task, dat
 - The given codebase contains one bug (that we know of). You need to find and fix this bug.
 - Your classification component should be architected in a way that facilitates the addition/implementation of new intent classifier models.
 - Your service needs to adopt the following API Documentation.
-- Please provide a _**private**_ github repository where all of your code should be. Please also provide a README.md file with all the instructions,
-requirements, etc. to run the solution.
-- Please invite the following users (user_ids are given as list) to your github repository whenever you feel ready:
-  - `andra-pumnea`
-  - `chak-radhar007`
-  - `andrasbeke`
-  - `MesiA`
-  - `lorzalbz`
-  - `tuncgultekin`
+- Please provide a _**private**_ github repository where all of your code should be. Please also provide a README.md file with all the instructions, requirements, etc. to run the solution.
 
 ## API Documentation
 API documentation for intent classification service.
-
 
 ### `POST /intent`
 Responds intent classification results for the given query utterance.
